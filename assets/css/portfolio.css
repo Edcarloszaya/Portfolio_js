@@ -1,0 +1,44 @@
+.header{
+    display: flex;
+    flex-direction: row;
+}
+
+.header-title{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    position: relative;
+}
+
+.header-photo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    position: relative;
+}
+
+
+.photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.title{
+    font-size: xx-large;
+}
+
+.informacao {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    font-size: 18px;
+    text-wrap: nowrap;
+}
+
+.informacao .informacao-p p img{
+    width:16px;
+    height: 16px;
+}
