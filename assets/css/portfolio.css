@@ -42,3 +42,31 @@
     width:16px;
     height: 16px;
 }
+
+
+.alinha-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn{
+    width: 7rem;
+    height: 1.5rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 0.5rem;
+    font-size:18px;
+}
+
+
+.btn:hover{
+    background-color: rgb(58, 101, 114);
+    color: aliceblue;
+}
+
+.btn:active{
+    background-color: rgb(28, 5, 39);
+}
