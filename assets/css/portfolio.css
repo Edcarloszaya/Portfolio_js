@@ -43,6 +43,10 @@
     height: 16px;
 }
 
+.conteudo .informacao .informacao-p p a{
+    text-decoration: none;
+}
+
 
 .alinha-btn {
     display: flex;
@@ -83,7 +87,8 @@
     display: flex;
     flex-direction: row;
     border: 1px solid black;
-    border-radius: .7rem;
+    border-radius: .9rem;
+    margin-bottom: .5rem;
 
 
 }
@@ -149,6 +154,7 @@
     padding-right: 2%;
     border: 1px solid black;
     border-radius: 1rem;
+    margin-bottom: .5rem;
    
     
     
@@ -185,6 +191,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    margin-bottom: .5rem;
 }
 
 .portfolio li{
@@ -192,6 +199,7 @@
     flex-direction: column;
     justify-content: flex-start;
     list-style: none;
+    padding-bottom: .5rem;
     
     
 }
@@ -230,6 +238,7 @@
     padding-left: 2%;
     border: 1px solid black;
     border-radius: 1rem;
+    margin-bottom: .5rem;
 }
 
 .experiencia .list-xp{
