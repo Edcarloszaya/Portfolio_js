@@ -47,6 +47,8 @@ body {
     .conteudo .alinha-btn .btn{
         margin-bottom: .5rem;
     }
+
+    
 }
 
 @media (max-width: 476px) {
@@ -84,6 +86,21 @@ body {
 
     .skills .personal .personal-list{
         justify-content: center;
+    }
+
+    .idiomas{
+        width: 55% !important;
+    }
+
+    .portfolio{
+        width: 55% !important;
+        
+    }
+
+    .idiomas .idiomas-list{
+        white-space: nowrap;
+        padding-left: .5rem;
+        
     }
    
 }
