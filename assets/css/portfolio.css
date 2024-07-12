@@ -1,9 +1,9 @@
-.header{
+.header {
     display: flex;
     flex-direction: row;
 }
 
-.header-title{
+.header-title {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -11,7 +11,7 @@
     position: relative;
 }
 
-.header-photo{
+.header-photo {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -26,31 +26,31 @@
     border-radius: 50%;
 }
 
-.title{
+.title {
     font-size: xx-large;
 }
 
 .informacao {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     align-items: center;
     font-size: 18px;
     text-wrap: nowrap;
 }
 
-.informacao .informacao-p p img{
-    width:16px;
+.informacao .informacao-p p img {
+    width: 16px;
     height: 16px;
 }
 
 
-.alinha-btn{
+.alinha-btn {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.btn{
+.btn {
     width: 7rem;
     height: 1.5rem;
     border: 1px solid black;
@@ -58,15 +58,81 @@
     text-align: center;
     font-weight: bold;
     margin-right: 0.5rem;
-    font-size:18px;
+    font-size: 18px;
 }
 
 
-.btn:hover{
+.btn:hover {
     background-color: rgb(58, 101, 114);
     color: aliceblue;
 }
 
-.btn:active{
+.btn:active {
     background-color: rgb(28, 5, 39);
 }
+
+
+.skills {
+    width: 50%;
+    margin-left: 23%;
+    margin-right: 23%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    border-radius: .7rem;
+
+
+}
+
+.title-skills{
+    width: 12%;
+    height: 5%;
+    
+}
+
+.tools {
+    width: 50%;
+    margin-top: 4rem;
+    flex-direction: row;
+    
+
+}
+
+.personal {
+    width: 50%;
+    margin-top: 4rem;
+    flex-direction: row;
+
+}
+
+.tools-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.personal-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+
+.skills .tools .tools-list li img {
+    height: 50px;
+    margin-right: .5rem;
+
+}
+
+.skills .personal .personal-list li  {
+    margin-right: 2rem;
+    font-weight: 520;
+    
+}
+
