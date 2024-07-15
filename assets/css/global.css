@@ -1,7 +1,7 @@
 body {
     background: rgb(238, 174, 202);
     background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
-    font-family: 'Neue Machina',sans-serif;
+    font-family: 'Neue Machina', sans-serif;
 
 }
 
@@ -39,74 +39,80 @@ body {
 }
 
 @media (max-width: 410px) {
-    .conteudo .alinha-btn{
+    .conteudo .alinha-btn {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .conteudo .alinha-btn .btn{
+
+    .conteudo .alinha-btn .btn {
         margin-bottom: .5rem;
     }
 
-    
 }
 
 @media (max-width: 476px) {
-    .conteudo .header{
-       flex-direction: column;
-       justify-content: center;
+    .conteudo .header {
+        flex-direction: column;
+        justify-content: center;
     }
-    .header .header-photo{
+
+    .header .header-photo {
         width: 100%;
         align-items: center;
     }
 }
 
 @media (max-width:572px) {
-    .skills{
-        width: 55% !important;
-        flex-direction: column !important; 
+    .skills {
+        flex-direction: column !important;
         justify-content: center;
-       
+
     }
-    .skills .tools{
+
+    .skills .tools {
         width: 100%;
         margin-top: .5rem;
     }
-    .skills .personal{
+
+    .skills .personal {
         width: 100%;
         margin-top: .5rem;
     }
-    .skills .tools .tools-list{
+
+    .skills .tools .tools-list {
         margin: 0;
         padding: 0;
         justify-content: center;
+
+    }
+
+    .skills .personal .personal-list {
+        align-items: center;
         
     }
 
-    .skills .personal .personal-list{
-        justify-content: center;
-    }
 
-    .idiomas{
-        width: 55% !important;
-    }
 
-    .portfolio{
-        width: 55% !important;
-        
-    }
-
-    .idiomas .idiomas-list{
+    .idiomas .idiomas-list {
         white-space: nowrap;
         padding-left: .5rem;
-        
+
     }
 
-    .experiencia{
-        width: 55% !important;
+
+
+}
+
+
+@media (max-width:768px) {
+
+    .skills,
+    .idiomas,
+    .portfolio,
+    .experiencia {
+        margin: 1rem !important;
     }
-   
 }
 
 @media only screen and (min-width: 768px) {
@@ -119,4 +125,5 @@ body {
     .conteudo::after {
         width: 70vw;
     }
+
 }

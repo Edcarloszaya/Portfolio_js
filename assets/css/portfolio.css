@@ -35,7 +35,7 @@
     flex-direction: column;
     align-items: center;
     font-size: 18px;
-    text-wrap: nowrap;
+    
 }
 
 .informacao .informacao-p p img {
@@ -45,6 +45,12 @@
 
 .conteudo .informacao .informacao-p p a{
     text-decoration: none;
+    color: black;
+    
+}
+
+.conteudo .informacao .informacao-p p a:hover{
+    text-decoration: underline;
 }
 
 
@@ -67,7 +73,7 @@
 
 
 .btn:hover {
-    background-color: rgb(58, 101, 114);
+    background-color:#BBB6DC;
     color: aliceblue;
 }
 
@@ -78,11 +84,9 @@
 
 
 .skills {
-    width: 50%;
-    margin-left: 23%;
-    margin-right: 23%;
-    padding-left: 2%;
-    padding-right: 2%;
+    max-width: 1024px ;
+    margin: auto;
+    padding: 1rem;
     padding-bottom: 1rem;
     display: flex;
     flex-direction: row;
@@ -147,11 +151,9 @@
 }
 
 .idiomas{
-    width: 50%;
-    margin-left: 23%;
-    margin-right: 23%;
-    padding-left: 2%;
-    padding-right: 2%;
+    max-width: 1024px ;
+    margin: auto;
+    padding: 1rem;
     border: 1px solid black;
     border-radius: 1rem;
     margin-bottom: .5rem;
@@ -181,17 +183,18 @@
 }
 
 .portfolio{
-    width: 50%;
-    margin-left: 23%;
-    margin-right: 23%;
-    padding-left: 2%;
-    padding-right: 2%;
+    max-width: 1024px ;
+    margin: auto;
+    padding: 1rem;
     border: 1px solid black;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     margin-bottom: .5rem;
+}
+.portfolio ul{
+    padding: 0;
 }
 
 .portfolio li{
@@ -226,16 +229,20 @@
 .portfolio li a{
     margin-top: .5rem;
     text-decoration: none;
+    color: black;
+   word-wrap:break-word;
     
+    
+}
+.portfolio li a:hover{
+    text-decoration:underline;
 }
 
 
 .experiencia{
-    width: 50%;
-    margin-left: 23%;
-    margin-right: 23%;
-    padding-right: 2%;
-    padding-left: 2%;
+    max-width: 1024px ;
+    margin: auto;
+    padding: 1rem;
     border: 1px solid black;
     border-radius: 1rem;
     margin-bottom: .5rem;
@@ -245,7 +252,10 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    
 }
+
 .experiencia .list-xp ul li{
     font-weight: 520;
+
 }
