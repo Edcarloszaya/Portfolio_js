@@ -27,12 +27,12 @@
         <div class="header">
 
             <div class="header-title">
-                <h1 class="title">Olá,<br> eu sou <br> <span> carregando....</span>
+                <h1 class="title">Olá,<br> eu sou <br> <span id="name"> carregando....</span>
                 </h1>
             </div>
 
             <div class="header-photo">
-                <img class="photo" src="./assets/img/my-photo.png" alt="photo-perfil">
+                <img class="photo" src="./assets/img/my-photo.png" alt="photo-perfil" id="photo">
             </div>
 
         </div>
@@ -41,17 +41,17 @@
 
             <div class="informacao-p">
 
-                <p class="trabalho">
+                <p id="job">
                     <img src="./assets/img/icons/job.svg"> carregando....
                 </p>
-                <p class="localizacao">
+                <p id="location">
                     <img src="./assets/img/icons/location.svg"> carregando....
                 </p>
-                <p class="telefone">
+                <p id="phone">
                     <img src="./assets/img/icons/phone.svg">
                     <a href="tel:(16) 9 9999-9999"> carregando....</a>
                 </p>
-                <p class="email">
+                <p id="email">
                     <img src="./assets/img/icons/email.svg">
                     <a href="mailto:ex@mail.com"> carregando@gmail.com....</a>
                 </p>
@@ -60,8 +60,9 @@
         </div>
 
         <div class="alinha-btn">
-            <button class="btn" type="button">Skill</button> <button class="btn" type="button">Idiomas</button> <button
-                class="btn" type="button">Portifólio</button> <button class="btn" type="button">Experiência </button>
+            <button class="btn" type="button" id="teste">Skill</button> <button class="btn"
+                type="button">Idiomas</button> <button class="btn" type="button">Portifólio</button> <button class="btn"
+                type="button">Experiência </button>
         </div>
 
     </section>
@@ -89,7 +90,7 @@
 
         <div class="personal">
             <h3>Pessoal:</h3>
-            <ul class="personal-list">
+            <ul class="personal-list" id="softSkills">
                 <li>carregando</li>
                 <li>carregando</li>
                 <li>carregando</li>
@@ -106,7 +107,7 @@
         <h2>Idiomas</h2>
 
         <div>
-            <ul class="idiomas-list">
+            <ul class="idiomas-list" id="languagen">
                 <li> <img src="/assets/img/icons/check.svg" alt="check">Carregando</li>
                 <li><img src="/assets/img/icons/check.svg" alt="check">Carregando</li>
 
@@ -121,7 +122,7 @@
         <h2>Portfólio</h2>
 
         <div>
-            <ul">
+            <ul id="portfolio-list">
                 <li>
                     <h3> <img src="/assets/img/icons/github.svg" alt="github"> Carregando</h3>
                     <a href="">Carregando...</a>
@@ -130,7 +131,7 @@
                     <h3> <img src="/assets/img/icons/github.svg" alt="github"> Carregando</h3>
                     <a href="">Carregando...</a>
                 </li>
-                </ul>
+            </ul>
         </div>
 
     </section>
@@ -139,14 +140,18 @@
 
         <h2>Experiência Profissional</h2>
 
-        <div class="list-xp" >
-            <ul>
+        <div class="list-xp">
+            <ul id="experiencia-list">
                 <li>Carregando</li>
             </ul>
         </div>
 
 
     </section>
+
+    <script src="./assets/js/api.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/toggleContent.js"></script>
 </body>
 
 </html>
