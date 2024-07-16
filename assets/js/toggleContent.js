@@ -1,7 +1,6 @@
 function showContent(button) {
   const selector = button.getAttribute("data-target");
   const skillInvisible = document.querySelector(`${selector}.invisible`);
-  console.log(skillInvisible);
   if (skillInvisible) {
     skillInvisible.classList.remove("invisible");
   } else {
