@@ -60,14 +60,16 @@
         </div>
 
         <div class="alinha-btn">
-            <button class="btn" type="button" id="teste">Skill</button> <button class="btn"
-                type="button">Idiomas</button> <button class="btn" type="button">Portifólio</button> <button class="btn"
-                type="button">Experiência </button>
+            <button class="btn" type="button" onclick="showContent(this)"data-target=".skills">Skill</button> 
+            <button class="btn" type="button" onclick="showContent(this)" data-target=".idiomas">Idiomas</button> 
+            <button class="btn" type="button" onclick="showContent(this)" data-target=".portfolio">Portifólio</button> 
+            <button class="btn" type="button" onclick="showContent(this)" data-target=".experiencia">Experiência </button>
+               
         </div>
 
     </section>
 
-    <section class=" skills   " id="skill">
+    <section class="skills invisible">
 
         <div class="title-skills">
 
@@ -102,7 +104,7 @@
 
     </section>
 
-    <section class=" idiomas  ">
+    <section class="idiomas invisible">
 
         <h2>Idiomas</h2>
 
@@ -117,7 +119,7 @@
 
     </section>
 
-    <section class=" portfolio  ">
+    <section class="portfolio invisible">
 
         <h2>Portfólio</h2>
 
@@ -136,7 +138,7 @@
 
     </section>
 
-    <section class="experiencia">
+    <section class="experiencia invisible">
 
         <h2>Experiência Profissional</h2>
 
