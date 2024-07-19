@@ -111,7 +111,7 @@ body {
     .idiomas,
     .portfolio,
     .experiencia {
-        margin: 1rem !important;
+        margin: 0.5rem !important;
     }
 }
 
